@@ -1,1 +1,2 @@
-print(100)
+print("hello world")
+print("hello world")
