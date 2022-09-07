@@ -14,13 +14,13 @@ age = 22
 
 
 weight = int(input("Enter Weight: "))
-command = input("(L)bs and (K)g: ")
+command = input("(L)bs and (K)g: ").lower()
 
 if command == "l":
     kilos = 0.45 * weight
     print(f"You are {kilos} kilos")
 elif command == "k":
     lbs = weight // 0.45
-    print(f"You are {lbs} lbs")
+    print(f"You are {lbs} lbs") 
 else:
     print("Invalid Option")
