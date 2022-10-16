@@ -29,4 +29,3 @@ print(bruce.average())
 clark = WorkingStudent("Clark Kent", "Oxford", 100)
 print(clark.school)              # property call
 print(bruce.weekly_salary)       # method call - converted to property call
-
